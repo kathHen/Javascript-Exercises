@@ -1,6 +1,9 @@
-.idea/.name
-.idea/Javascript-Exercises.iml
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
-.idea/workspace.xml
+logs/*
+!.gitkeep
+tmp
+.DS_Store
+.idea
+.build
+npm-debug.log
+**/bower_components/
+**/node_modules/
