@@ -1,7 +1,5 @@
 'use strict';
-var radius = 15;
-var circArea = function () {
-    var area = ((radius * 2) * Math.PI);
-    console.log(area);
+var circleArea = function (radius) {
+    return ((radius * radius) * Math.PI);
 };
-circArea();
+circleArea(25);

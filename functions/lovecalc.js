@@ -1,16 +1,15 @@
 'use strict';
-var nameOne = "Ace";
-var nameTwo = "Patricia";
-var loveCalc = function () {
+var loveCalc = function (nameOne, nameTwo) {
     var nameNum = (nameOne.length + nameTwo.length);
-    var randomNum = Math.floor(Math.random() * 6 + 1);
+    var randomNum = Math.floor(Math.random() * 6);
     nameNum = (nameNum - randomNum);
     var result = (nameNum * 42);
     if (result > 100){
         result = 100;
-        console.log("Your love is 100!");
-    } else {
-        console.log("Your love result is " + result);
+        return("Your love is 100!");
+    }
+    else {
+        return("Your love result is " + result);
     }
 };
-loveCalc();
+loveCalc('Amy', 'Bob');
